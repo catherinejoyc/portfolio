@@ -3,10 +3,10 @@
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #1f1f1f;
+  background: var(--text-color);
 }
 ::-webkit-scrollbar-thumb {
-  background: #F3EFFA;
+  background: var(--primary-color);
 }
 
 /* Body*/
@@ -19,9 +19,11 @@ html, body{
 }
 
 :root{
-  --primary-color: #8192B1; 
-  --background-color: #101319;
-  --text-color: #F2F5F7;
+  --primary-color: #9974D7; 
+  --text-color: #1A0D30;
+  --text-color-light-1: #271448;
+  --background-color: #F3EFFA;
+  --background-shade-1: #E8E0F6;
 }
 
 /* Sidebar */
@@ -30,42 +32,65 @@ html, body{
   width: 15%;
   padding: 0px;
   position: fixed;
-  background-color: #1f1f1f;
+  background-color: var(--text-color);
   
   font-weight: bold;
-  color: #F3EFFA;
+  color: var(--background-color);
 }
-
 .sidebar ul{
   margin: 0px;
   padding: 30px;
-    
-  background-color: #1f1f1f;
   list-style-type: none;
 }
-
 .sidebar a
 {
   padding: 2.5px 0px;
   margin: 0px;
   display: block;
-  
+  background-color: transparent;
   text-decoration: none;
 }
 .sidebar a:link {
-  background-color: transparent;
-  color: #F3EFFA;
+  color: var(--background-color)
 }
 .sidebar a:visited {
-  background-color: transparent;
-  color: #F3EFFA;
+  color: var(--background-color)
 }
 .sidebar a:hover {
-  background-color: #1f1f1f;
-  color: #9974D7;
+  color: var(--primary-color);
 }
 .sidebar a.active{
-  background-color: #1f1f1f;
-  color: #9974D7;
+  color: var(--primary-color);
 }
-  
+
+/* Content */
+.content{
+  height: 100%;
+  margin-left: 15%;
+}
+.section{
+  height: 100%;
+}
+#home{
+  background-color: var(--background-color);
+  position: relative;
+}
+/* Home */
+.homeContent div{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  font-size: 5em;
+  margin: 0px;
+}
+h3{
+  font-size: 2em;
+  margin: 0px;
+}
