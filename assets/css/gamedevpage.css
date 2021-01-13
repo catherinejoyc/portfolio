@@ -1,0 +1,71 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb {
+  background: #F3EFFA;
+}
+
+/* Body*/
+html, body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "DM Sans";
+  scroll-behavior: smooth;
+}
+
+:root{
+  --primary-color: #8192B1; 
+  --background-color: #101319;
+  --text-color: #F2F5F7;
+}
+
+/* Sidebar */
+.sidebar{
+  height: 100%;
+  width: 15%;
+  padding: 0px;
+  position: fixed;
+  background-color: #1f1f1f;
+  
+  font-weight: bold;
+  color: #F3EFFA;
+}
+
+.sidebar ul{
+  margin: 0px;
+  padding: 30px;
+    
+  background-color: #1f1f1f;
+  list-style-type: none;
+}
+
+.sidebar a
+{
+  padding: 2.5px 0px;
+  margin: 0px;
+  display: block;
+  
+  text-decoration: none;
+}
+.sidebar a:link {
+  background-color: transparent;
+  color: #F3EFFA;
+}
+.sidebar a:visited {
+  background-color: transparent;
+  color: #F3EFFA;
+}
+.sidebar a:hover {
+  background-color: #1f1f1f;
+  color: #9974D7;
+}
+.sidebar a.active{
+  background-color: #1f1f1f;
+  color: #9974D7;
+}
+  

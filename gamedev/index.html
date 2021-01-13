@@ -9,12 +9,22 @@
 
 
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/gamedevpage.css">
+  <link rel="stylesheet" href="../assets/css/gamedevpage.css">
 
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
 </head>
 <body>
-  <div></div>
+  <div>
+    <div class="sidebar">
+      <ul>
+        <li><a onclick="activateNavItem('navItemHome')" class="navItem active" id="navItemHome" href="#home">Home</a></li>
+        <li><a onclick="activateNavItem('navItemSkills')" class="navItem" id="navItemSkills" href="#skills">Skills</a></li>
+        <li><a onclick="activateNavItem('navItemPortfolio')" class="navItem" id="navItemPortfolio" href="#portfolio">Portfolio</a></li>
+        <li><a onclick="activateNavItem('navItemAboutMe')" class="navItem" id="navItemAboutMe" href="#about-me">About Me</a></li>
+        <li><a onclick="activateNavItem('navItemContact')" class="navItem" id="navItemContact" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
