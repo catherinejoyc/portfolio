@@ -249,20 +249,42 @@ html {
   }
   .columnLeftWorkFlow{
   float: left;
-  width: 50%;
+  width: 70%;
   padding-right: 5%;
   height: 100%;
   }
   .columnRightWorkFlow{
   float: left;
-  width: 35%;
+  width: 25%;
+  height: 100%;
   }
-  
+  .workflowImage{
+    box-sizing: border-box;
+    height: 30%;
+    width: 100%;
+    border: solid #1f1f1f 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .grid-item {
+  padding-right: 50px;
+  }
+  #workflow a{
+    color: #1f1f1f;
+  }
+  #workflow a:hover{
+    color: #9974D7;
+  }
+
   /* About Me */
   #about-me .row{
-    padding: 5%;
-    box-sizing: border-box;
-    height: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+  height: 100%;
   }
   .columnLeft{
   float: left;
