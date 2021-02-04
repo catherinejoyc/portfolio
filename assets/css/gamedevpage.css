@@ -261,7 +261,9 @@ html {
   .workflowImage{
     box-sizing: border-box;
     height: 30%;
-    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: #1f1f1f;
     border: solid #1f1f1f 5px;
     border-radius: 5px;
     margin-bottom: 20px;
