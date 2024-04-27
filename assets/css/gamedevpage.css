@@ -216,7 +216,7 @@ html, body{
     height: 100%;
   }
   .slideImage{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/profile.jfif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/wier_vn.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
