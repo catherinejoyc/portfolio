@@ -253,6 +253,7 @@ html, body{
   #camazotz{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/camazotz_bigBat.jpg');}
   #mino{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/mino_bear.jpg');}
   #BmS{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/BMS_Still-02.jpg');}
+  #burger{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/MortalBurgerKombat.png');}
 
   /* Workflow */
   #workflow .row{
